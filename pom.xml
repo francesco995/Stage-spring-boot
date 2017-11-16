@@ -12,30 +12,48 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.4.RELEASE</version>
+        <version>1.4.1.RELEASE</version>
     </parent>
 
+
     <properties>
-
-        <spring.boot.version>1.5.4.RELEASE</spring.boot.version>
-
+        <jdk.version>1.8</jdk.version>
     </properties>
 
 
 
     <modules>
         <module>stage-java-configuration-application</module>
-        <module>stage-java-configuration-application</module>
         <module>stage-java-configuration-model</module>
         <module>stage-java-configuration-core</module>
     </modules>
 
-
     <dependencies>
 
 
-
     </dependencies>
+
+    <build>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+
+
+
 
 
 </project>
