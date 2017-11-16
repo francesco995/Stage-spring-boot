@@ -11,6 +11,28 @@
 
     <artifactId>stage-java-configuration-application</artifactId>
 
+
+    <properties>
+        <packaging.type>jar</packaging.type>
+    </properties>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+
+    </dependencies>
+
     <build>
 
         <finalName>stage-java-configuration-application</finalName>

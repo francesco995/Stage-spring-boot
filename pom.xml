@@ -15,6 +15,14 @@
         <version>1.5.4.RELEASE</version>
     </parent>
 
+    <properties>
+
+        <spring.boot.version>1.5.4.RELEASE</spring.boot.version>
+
+    </properties>
+
+
+
     <modules>
         <module>stage-java-configuration-application</module>
         <module>stage-java-configuration-application</module>
