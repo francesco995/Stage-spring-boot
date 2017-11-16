@@ -19,6 +19,7 @@
         <module>stage-java-configuration-application</module>
         <module>stage-java-configuration-application</module>
         <module>stage-java-configuration-model</module>
+        <module>stage-java-configuration-core</module>
     </modules>
 
 
